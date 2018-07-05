@@ -30,7 +30,7 @@ export COUNTRY_CODE
 
 Usage on MacOS
 -----
-Use `disktool list` command to determine the name of your SD card (not partition!).
+Use `diskutil list` command to determine the name of your SD card (not partition!).
 For example, SD card is mounted as `disk2` and Raspbian file name is `raspbian.img`:
 ```
 ./raspbian_setup.sh disk2 raspbian.img
